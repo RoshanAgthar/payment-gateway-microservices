@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;com.roshan.user_service.Api.orderApi.java&apos; to &apos;userApi.java&apos;&#x0D;&#x0A;- Original project: &apos;user-service&apos;&#x0D;&#x0A;- Original element: &apos;com.roshan.user_service.Api.orderApi.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.roshan.user_service.Api.userApi.java&apos;" description="Rename compilation unit &apos;orderApi.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.roshan.user_service.Api{orderApi.java" name="userApi.java" references="false" stamp="1788543949803" version="1.0"/>
-</session>

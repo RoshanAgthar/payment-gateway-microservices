@@ -1,5 +1,0 @@
-package com.roshan.Order_Service.dto;
-
-public class PaymentRequest {
-
-}

@@ -1,5 +1,0 @@
-package com.roshan.user_service.exception;
-
-public class Global_Exception {
-
-}
