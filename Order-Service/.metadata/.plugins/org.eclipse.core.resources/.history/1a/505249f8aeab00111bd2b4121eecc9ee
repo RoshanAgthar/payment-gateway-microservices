@@ -1,0 +1,5 @@
+package com.roshan.Order_Service.client;
+
+public interface payments_client {
+
+}

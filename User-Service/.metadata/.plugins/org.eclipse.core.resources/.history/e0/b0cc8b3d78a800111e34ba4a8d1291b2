@@ -1,0 +1,5 @@
+package com.roshan.user_service.exception;
+
+public class Error_Response {
+
+}

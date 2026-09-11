@@ -1,0 +1,32 @@
+package com.roshan.user_service.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.roshan.user_service.Entity.users;
+import com.roshan.user_service.exception.UserNotFoundException;
+import com.roshan.user_service.repository.userrepository;
+
+@Service
+public class userservice {
+	private userrepository userrepo;
+	private userservice(userrepository userrepo){
+		this.userrepo=userrepo;
+	}
+	
+	public users  create(users user) {
+		if(user.getName()==null || user.getName().isBlank()) {
+			throw new IllegalArgumentException("order name must be empty!! ");
+		}
+		 return userrepo.save(user);
+	}
+	
+	public users getById(Long id) {
+		return userrepo.findById(id).orElseThrow(() -> new  UserNotFoundException("orderid is not found"+id));
+	}
+	public List<users>getUsersAll(){
+		return userrepo.findAll();
+	}
+
+}
